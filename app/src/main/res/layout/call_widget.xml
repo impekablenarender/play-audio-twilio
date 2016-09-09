@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="110dp"
+    android:minWidth="130dp"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/app_name"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_below="@+id/appwidget_text"
+        android:layout_alignLeft="@+id/appwidget_text"
+        android:layout_alignStart="@+id/appwidget_text"
+        android:layout_alignRight="@+id/appwidget_text"
+        android:layout_alignEnd="@+id/appwidget_text"
+        android:id="@+id/appwidget_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:drawablePadding="@dimen/widget_margin"
+        android:contentDescription="@string/app_name"
+        android:drawableTop="@drawable/ic_off"
+        android:text="@string/widget_off"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

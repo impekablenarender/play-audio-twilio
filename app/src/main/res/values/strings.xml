@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Call time alert</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_off">off</string>
+    <string name="widget_on">on</string>
+</resources>
